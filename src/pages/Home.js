@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../components/Header.js";
-import Navbar from "../components/Navbar.js";
+// import Header from "../components/Header.js";
+
 
 
 
 function Home() {
     return (
         <div>
-        <Header />
+        {/* <Header /> */}
         <h1 className="name">Derick Newton</h1>
         </div>
     
