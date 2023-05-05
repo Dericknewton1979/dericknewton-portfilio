@@ -6,7 +6,7 @@ import React from "react";
 
 function Home() {
     return (
-        <div>
+        <div className="main">
         {/* <Header /> */}
         <h1 className="name">Derick Newton</h1>
         </div>
