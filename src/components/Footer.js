@@ -28,19 +28,19 @@ const Footer = () => {
                         <h5>Check Me Out!</h5>
                         <a
                             className="btn btn-social-icon btn-github"
-                            href="https://github.com/Dericknewton1979"
+                            href="https://github.com/Dericknewton1979" target="_blank"
                         >
                             <i className="fa fa-github" />
                         </a>{' '}
                         <a
                             className="btn btn-social-icon btn-linkedin"
-                            href="https://www.linkedin.com/in/derick-newton-299a7b166/"
+                            href="https://www.linkedin.com/in/derick-newton-299a7b166/" target="_blank"
                         >
                             <i className="fa fa-linkedin" />
                         </a>{' '}
                         <a
                             className="btn btn-social-icon btn-codepen"
-                            href="https://codepen.io/Dnewton1979"
+                            href="https://codepen.io/Dnewton1979" target="_blank"
                         >
                             <i className="fa fa-codepen" />
                         </a>{' '}
@@ -50,7 +50,7 @@ const Footer = () => {
                     <a
                         role='button'
                         className="btn btn-link"
-                        href="tel:+12066052332"
+                        href="tel:+12066052332" target="_blank"
                     >
                         <i className="fa fa-phone" /> 1-206-605-2332
                     </a>
@@ -58,7 +58,7 @@ const Footer = () => {
                     <a
                         role='button'
                         className='btn btn-link'
-                        href='mailto:dericknewton1979@hotmail.com'
+                        href='mailto:dericknewton1979@hotmail.com' target="_blank"
                     >
                         <i className='fa fa-envelope-o' /> dericknewton1979@hotmail.com
                     </a>
