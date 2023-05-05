@@ -10,16 +10,19 @@ const Footer = () => {
                         <h5>Where do you want to go?</h5>
                         <ul className="list">
                             <li>
-                                About
+                                <Link to= '/'>Home</Link>
                             </li>
                             <li>
-                                Experience
+                                <Link to= '/About'>About</Link>
                             </li>
                             <li>
-                                Projects
+                                <Link to= '/Experience'>Experience</Link>
                             </li>
                             <li>
-                                Contact
+                                <Link to= '/Projects'>Projects</Link>
+                            </li>
+                            <li>
+                                <Link to= '/Contact'>Contact</Link>
                             </li>
                         </ul>
                     </Col>
