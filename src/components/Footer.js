@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
 const Footer = () => {
@@ -7,6 +8,20 @@ const Footer = () => {
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
                         <h5>Where do you want to go?</h5>
+                        <ul className="list">
+                            <li>
+                                About
+                            </li>
+                            <li>
+                                Experience
+                            </li>
+                            <li>
+                                Projects
+                            </li>
+                            <li>
+                                Contact
+                            </li>
+                        </ul>
                     </Col>
                     
                     <Col xs='6' sm='3' className="'text-center">
