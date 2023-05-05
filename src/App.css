@@ -1,5 +1,10 @@
+.App {
+    background-color: #66676d;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color:#66676d ;
 }
 
 h1,
@@ -35,16 +40,19 @@ h2 {
     margin-top: 2rem;
 }
 
+
+
 .navbar-brand {
     max-width: 4rem;
     margin-right: 2rem;
+    
 }
 
 .navbar-brand img {
-    width: 100%;
-    height: 100%;
-    margin-right: 2rem;
-    max-width: 4rem;
+    height: 80px;
+    width: 150px;
+    margin: 10px center;
+    border-radius: 50%;;
 }
 
 .navbar-dark {
