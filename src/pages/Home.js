@@ -1,5 +1,5 @@
 import React from "react";
-// import Header from "../components/Header.js";
+
 
 
 
@@ -7,7 +7,7 @@ import React from "react";
 function Home() {
     return (
         <div className="main">
-        {/* <Header /> */}
+       
         <h1 className="name">Derick Newton</h1>
         </div>
     
