@@ -1,17 +1,20 @@
+
 .App {
     background-color: #66676d;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color:#66676d ;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+    
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .card-title {
@@ -35,7 +38,7 @@ h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#1f1c3b, white);
+    background-image: linear-gradient(to right, #1a1a1b, #66676d, #4517cf) !important;
     padding: 20px 0;
     margin-top: 2rem;
 }
@@ -57,7 +60,7 @@ h2 {
 
 .navbar-dark {
     background-color: #66676d;
-    background-image: linear-gradient(to right, #1a1a1b, #66676d, #4517cf);
+    background-image: linear-gradient(to right, #1a1a1b, #66676d);
     margin-bottom: 2rem;
     min-height: 8rem;
 }
@@ -80,4 +83,22 @@ h2 {
 .page-exit-active {
     opacity: 0;
     transition: 300ms ease-in;
+}
+
+.footer-links a {
+    color: white
+}
+
+.footer-links a:hover {
+    color: black
+}
+
+.contact-link:hover {
+    color: black !important;
+    text-decoration: underline;
+}
+
+.contact-link {
+    color: white !important;
+    text-decoration: underline;
 }

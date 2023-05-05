@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
+
 const Footer = () => {
     return(
         <footer classname="site-footer">
             <Container>
                 <Row>
-                    <Col xs={{ size: 4, offset: 1 }} sm='2'>
+                    <Col xs={{ size: 4, offset: 1 }} sm='2' >
                         <h5>Where do you want to go?</h5>
-                        <ul className="list">
+                        <ul className="list footer-links">
                             <li>
                                 <Link to= '/'>Home</Link>
                             </li>
@@ -50,18 +51,21 @@ const Footer = () => {
                     </Col>
 
                     <Col sm='4'>
-                    <a
+                    <a 
                         role='button'
-                        className="btn btn-link"
+                        className="btn btn-link contact-link"
                         href="tel:+12066052332" target="_blank"
+                        style={{color: 'white' }}
+                        
                     >
                         <i className="fa fa-phone" /> 1-206-605-2332
                     </a>
                     <br />
                     <a
                         role='button'
-                        className='btn btn-link'
+                        className='btn btn-link contact-link'
                         href='mailto:dericknewton1979@hotmail.com' target="_blank"
+                        style={{color: 'white'}}
                     >
                         <i className='fa fa-envelope-o' /> dericknewton1979@hotmail.com
                     </a>
