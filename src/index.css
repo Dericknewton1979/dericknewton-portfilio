@@ -1,8 +1,16 @@
+/* .App {
+  background-color: #66676d;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
 nav {
   height: 90px;
   display: flex;
   padding: 20px 36px;
-  box-shadow: 0px 3px 7.5px rgba(0,0,0,1);
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 1);
 }
 
 .my-logo {
@@ -10,7 +18,6 @@ nav {
   width: 100px;
   margin: 10px center;
   border-radius: 50%;
-  
 }
 
 .name {
@@ -18,3 +25,118 @@ nav {
   font-size: 100px;
 }
 
+h1,
+h2,
+h3,
+.card-body > .card-title {
+  font-family: "Lobster", cursive;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.statement {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: 150px;
+  margin: 10px center;
+  border-radius: 50%;
+}
+
+.navbar-dark {
+  background-color: #66676d;
+  background-image: linear-gradient(to right, #1a1a1b, #66676d);
+  margin-bottom: 2rem;
+  min-height: 6rem;
+}
+
+.footer-links a {
+  color: white;
+}
+
+.footer-links a:hover {
+  color: black;
+}
+
+.contact-link:hover {
+  color: black !important;
+  text-decoration: underline;
+}
+
+.contact-link {
+  color: white !important;
+  text-decoration: underline;
+}
+.name {
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-left {
+  opacity: 0;
+  animation-name: slide-in-left;
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+ .card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+ .row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-color: #66676d;
+  color: black;
+  background-image: linear-gradient(to right, #1a1a1b, #66676d);
+  margin-bottom: 2rem;
+  min-height: 8rem;
+  height: 300px;
+  width: auto;
+  display: inline-flexbox;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 1);
+}
+
+.navbar-brand {
+  max-width: 4rem;
+  margin-right: 2rem;
+}
+.page-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+} */
