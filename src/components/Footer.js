@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 
 const Footer = () => {
   return (
@@ -87,6 +87,16 @@ const Footer = () => {
             >
               <i className="fa fa-envelope-o" /> webdevdn@hotmail.com
             </a>
+          </Col>
+          <Col>
+            <Button className="resume">
+              <a
+              // href="src/app/assets/Derick Newton Resume update.docx"
+              // target="blank"
+              >
+                Resume
+              </a>
+            </Button>
           </Col>
         </Row>
       </Container>

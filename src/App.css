@@ -114,6 +114,13 @@ nav {
   text-decoration: underline;
 }
 
+.resume {
+  height: 50px;
+  width: 100px;
+  border: solid 2px !important;
+  border-color: black !important;
+}
+
 .site-footer {
   background-color: #66676d;
   color: black;

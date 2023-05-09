@@ -9,7 +9,7 @@ function Home() {
         className="statement slide-in-right-delayed "
         style={{ animationDelay: "1s" }}
       >
-        Making the web a better place!
+        Developing Endless Possibilites!
       </h2>
       <div>
         <h3
