@@ -10,7 +10,7 @@ h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
   font-family: "Share Tech Mono", monospace;
 }
 
@@ -37,19 +37,55 @@ nav {
 }
 
 .name {
+  margin-top: 100px;
   text-align: center;
   font-size: 100px;
   font-family: "Share Tech Mono", monospace;
-  animation-duration: 3s;
+  animation-duration: 4.5s;
+  animation-fill-mode: forwards;
+}
+
+.statement {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  animation-duration: 3.5s;
+  animation-fill-mode: backwards;
+}
+
+.my-info {
+  display: flex;
+  margin: 50px 400px 300px 400px;
+  animation-duration: 4.5s;
   animation-fill-mode: forwards;
 }
 
 .slide-in-left {
   opacity: 0;
-  animation-name: slide-in-left;
+  animation: slide-in-left ease-in-out 3.5s forwards;
+}
+
+.slide-in-right-delayed {
+  opacity: 0;
+  animation: slide-in-right ease-in-out 3.5s forwards;
+}
+.slide-in-left-delayed {
+  opacity: 0;
+  animation: slide-in-left ease-in-out 3.5s forwards;
 }
 
 @keyframes slide-in-left {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-right {
   from {
     transform: translateX(-100%);
     opacity: 0;
@@ -58,12 +94,6 @@ nav {
     transform: translateX(0);
     opacity: 1;
   }
-}
-
-.statement {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
 }
 
 .footer-links a {
