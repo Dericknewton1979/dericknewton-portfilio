@@ -1,7 +1,18 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Button } from "reactstrap";
 
+import { saveAs } from "file-saver";
+
 const Footer = () => {
+  const [showFile, setShowFile] = useState(false);
+
+  const handleFileDownload = () => {
+    const file = require("../app/assets/Derick Newton Resume update.pdf");
+    const resumeDerick = "document.pdf";
+
+    saveAs(file, resumeDerick);
+  };
   return (
     <footer>
       <Container className="site-footer">
@@ -89,13 +100,8 @@ const Footer = () => {
             </a>
           </Col>
           <Col>
-            <Button className="resume">
-              <a
-              // href="src/app/assets/Derick Newton Resume update.docx"
-              // target="blank"
-              >
-                Resume
-              </a>
+            <Button className="resume" onClick={handleFileDownload}>
+              Resume
             </Button>
           </Col>
         </Row>
