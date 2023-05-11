@@ -1,5 +1,6 @@
 .App {
   background-color: #66676d;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -58,6 +59,11 @@ nav {
   margin: 50px 400px 300px 400px;
   animation-duration: 4.5s;
   animation-fill-mode: forwards;
+}
+.experience-info {
+  display: flex;
+  margin: 50px 400px 70px 400px;
+  border-bottom: solid;
 }
 
 .slide-in-left {
@@ -125,12 +131,30 @@ nav {
   background-color: #66676d;
   color: black;
   background-image: linear-gradient(to right, #1a1a1b, #66676d);
-  margin-bottom: 2rem;
-  height: 300px;
+  margin-bottom: 1rem;
+  height: 150pxpx;
   width: 100%;
   display: flexbox;
   align-items: center;
   justify-content: center;
   padding: 20px 36px;
   box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 1);
+}
+
+.nucamp {
+  display: flex;
+  height: 150px;
+  padding: 100px;
+}
+
+.junk {
+  display: flex;
+  height: 100px;
+}
+
+.fredmeyer {
+  display: flex;
+  height: 80px;
+  padding: 100px;
+  margin-bottom: 4rem;
 }

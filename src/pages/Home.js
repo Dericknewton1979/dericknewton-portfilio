@@ -19,7 +19,7 @@ function Home() {
           Im a full stack engineer with a passion for perfection. After many
           years in Business Management I am pursuing a career in web
           development. I am currently open to any opportunities and cant wait to
-          help out!
+          help you out!
         </h3>
       </div>
     </div>
