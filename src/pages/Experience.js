@@ -32,36 +32,105 @@ const Experience = () => {
         <div className="jobs">
           {activeCard === "nucamp" && (
             <CardBody className="nucamp">
-              <img src={logo1} alt="nucamp logo" />
+              <div className="logo-section">
+                <h2>December 2022 - June 2024</h2>
+                <img src={logo1} alt="nucamp logo" />
+              </div>
               <ul>
-                <li>test 1</li>
-                <li>test 2</li>
-                <li>test 3</li>
-                <li>test 4</li>
+                <li>Full Stack Web & Mobile Development Student.</li>
+                <li>
+                  Completed classes in HTML, CSS, JavaScript, Bootstrap, React,
+                  React Native, Redux, Node.js, MongoDB and more.
+                </li>
+                <li>
+                  Developed a strong understanding of software development best
+                  practices including version control, debugging, testing and
+                  documentation.
+                </li>
+                <li>
+                  Collaborated with fellow students on group projects, honing
+                  teamwork and communication skills in a collaborative coding
+                  environment.
+                </li>
+                <li>
+                  Participated in hands on coding projects, building real world
+                  applications and gaining practical experience in full stack
+                  and mobile development.{" "}
+                </li>
               </ul>
             </CardBody>
           )}
 
           {activeCard === "junk" && (
             <CardBody className="junk">
-              <img src={logo2} alt="got junk logo" />
+              <div className="logo-section">
+                <h2>February 2016 - August 2022</h2>
+                <img src={logo2} alt="got junk logo" />
+              </div>
               <ul>
-                <li>test 1</li>
-                <li>test 2</li>
-                <li>test 3</li>
-                <li>test 4</li>
+                <li>Served as General Manager for the Seattle WA Region.</li>
+                <li>
+                  Increased annual revenue over double in 5 years from 2.8
+                  million to 6.2 million!
+                </li>
+                <li>
+                  Coordinated schedules to gaurantee sufficient coverage,
+                  managed customer relations to sustain good rapport and
+                  constructed innovative strategies for business development,
+                  expanding into new markets and growing clientele base.
+                </li>
+                <li>
+                  Demonstrated effective management, leadership, coaching and
+                  development of managers, shift supervisors and team leads.
+                  <li>
+                    Provided strategic direction to managers related to the
+                    identification and support of under-performing teams to
+                    ensure improvement plans were created and used.
+                  </li>
+                </li>
               </ul>
             </CardBody>
           )}
 
           {activeCard === "fredmeyer" && (
             <CardBody className="fredmeyer">
-              <img src={logo3} alt="fredmeyer logo" />
+              <div className="logo-section">
+                <h2>November 2008 - February 2016</h2>
+                <img src={logo3} alt="fredmeyer logo" />
+              </div>
               <ul>
-                <li>test 1</li>
-                <li>test 2</li>
-                <li>test 3</li>
-                <li>test 4</li>
+                <li>
+                  Held the role of Food Division Manager, assigned with
+                  directing the operations of several cross-functional
+                  professional teams composed of over 100 employee's throughout
+                  7+ departments.
+                </li>
+                <li>
+                  Selected to join the regional leadership training team as a
+                  coach and mentor to other managers from 2009 to 2016.
+                </li>
+                <li>
+                  Regulated $50M+ in annual sales, executing strategies to
+                  achieve an average 2% to 4% annual increase, managed losses
+                  and profits, creating systems to boost profits continuously,
+                  meeting and exceeding wage and sales goals.
+                </li>
+                <li>
+                  Analyzed financial data including shortage to identify
+                  business opportunities, determine proper action plan, and
+                  increase sales.
+                </li>
+                <li>
+                  Maintained working relationships with all vendors, monitored
+                  and corrected delivery procedures, ensuring the accuracy of
+                  orders.
+                </li>
+                <li>
+                  Evaluated food service results and trends to determine the
+                  proper action plans to leverage the stores food sales and
+                  address areas of improvement, maintained 100% in-stock
+                  efficiency on top selling items.
+                </li>
               </ul>
             </CardBody>
           )}

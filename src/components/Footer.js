@@ -101,7 +101,7 @@ const Footer = () => {
           </Col>
           <Col>
             <Button className="resume" onClick={handleFileDownload}>
-              Resume
+              Download Resume
             </Button>
           </Col>
         </Row>

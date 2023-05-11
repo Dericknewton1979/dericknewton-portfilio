@@ -56,7 +56,7 @@ nav {
 
 .my-info {
   display: flex;
-  margin: 50px 400px 300px 400px;
+  margin: 50px 400px 400px 400px;
   animation-duration: 4.5s;
   animation-fill-mode: forwards;
 }
@@ -137,8 +137,8 @@ nav {
 }
 
 .resume {
-  height: 50px;
-  width: 100px;
+  height: 75px;
+  width: 150px;
   border: solid 2px !important;
   border-color: black !important;
 }
@@ -148,17 +148,19 @@ nav {
   color: black;
   background-image: linear-gradient(to right, #1a1a1b, #66676d);
   margin-bottom: 1rem;
-  height: 150pxpx;
+  height: 170px;
   width: 100%;
+  margin-top: 400px;
   display: flexbox;
   align-items: center;
   justify-content: center;
-  padding: 20px 36px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 1);
 }
 
 .nucamp {
-  margin: 200px 80px 200px 140px;
+  margin: 200px 80px 200px -100px;
   display: block;
   height: 300px;
   align-items: center;
@@ -167,6 +169,7 @@ nav {
 .junk {
   display: block;
   height: 300px;
+  margin: 200px 80px 200px -100px;
   align-items: center;
 }
 
@@ -174,7 +177,7 @@ nav {
   display: block;
   height: 300px;
   align-items: center;
-  margin: 60px 100px 70px 40px;
+  margin: 60px 100px 70px -100px;
 }
 .derick-newton {
   display: block;
@@ -197,4 +200,17 @@ nav {
 }
 .derick-newton img {
   border-radius: 50%;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.logo-section h2,
+.logo-section img {
+  margin: 0;
 }
