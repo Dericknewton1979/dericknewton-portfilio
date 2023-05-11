@@ -65,6 +65,22 @@ nav {
   margin: 50px 400px 70px 400px;
   border-bottom: solid;
 }
+.job-links {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.job-links li:hover {
+  color: black;
+}
+.jobs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 100px 70px 300px;
+  height: 300px;
+}
 
 .slide-in-left {
   opacity: 0;
@@ -142,19 +158,43 @@ nav {
 }
 
 .nucamp {
-  display: flex;
-  height: 150px;
-  padding: 100px;
+  margin: 200px 80px 200px 140px;
+  display: block;
+  height: 300px;
+  align-items: center;
 }
 
 .junk {
-  display: flex;
-  height: 100px;
+  display: block;
+  height: 300px;
+  align-items: center;
 }
 
 .fredmeyer {
-  display: flex;
-  height: 80px;
-  padding: 100px;
-  margin-bottom: 4rem;
+  display: block;
+  height: 300px;
+  align-items: center;
+  margin: 60px 100px 70px 40px;
+}
+.derick-newton {
+  display: block;
+  height: 350px;
+  align-items: center;
+  margin: 100px 500px 100px -100px;
+}
+
+.nucamp img {
+  width: 200px;
+  height: 200px;
+}
+.junk img {
+  width: 500px;
+  height: 200px;
+}
+.fredmeyer img {
+  width: 400px;
+  height: 100px;
+}
+.derick-newton img {
+  border-radius: 50%;
 }
