@@ -154,7 +154,7 @@ nav {
   margin-bottom: 1rem;
   height: 170px;
   width: 100%;
-  margin-top: 450px;
+  margin-top: 550px;
   display: flexbox;
   align-items: center;
   justify-content: center;
@@ -217,4 +217,50 @@ nav {
 .logo-section h2,
 .logo-section img {
   margin: 0;
+}
+
+.nucamp {
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 1.5s ease-in; /* Apply transition effect */
+}
+
+.nucamp.active {
+  opacity: 1; /* Set opacity to 1 for active cards */
+}
+
+.nucamp.fade-out {
+  animation: fadeAnimation 1.5s ease-in; /* Apply fade-in animation */
+}
+.junk {
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 1.5s ease-in; /* Apply transition effect */
+}
+
+.junk.active {
+  opacity: 1; /* Set opacity to 1 for active cards */
+}
+
+.junk.fade-out {
+  animation: fadeAnimation 1.5s ease-in; /* Apply fade-in animation */
+}
+.fredmeyer {
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 1.5s ease-in; /* Apply transition effect */
+}
+
+.fredmeyer.active {
+  opacity: 1; /* Set opacity to 1 for active cards */
+}
+
+.fredmeyer.fade-out {
+  animation: fadeAnimation 1.5s ease-in; /* Apply fade-in animation */
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

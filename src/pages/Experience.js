@@ -15,6 +15,7 @@ const Experience = () => {
     } else {
       setActiveCard(cardName);
     }
+    setActiveCard(cardName);
   };
 
   return (
@@ -31,7 +32,11 @@ const Experience = () => {
 
         <div className="jobs">
           {activeCard === "nucamp" && (
-            <CardBody className="nucamp">
+            <CardBody
+              className={`nucamp ${
+                activeCard === "nucamp" ? "active fade-out" : ""
+              }`}
+            >
               <div className="logo-section">
                 <h2>December 2022 - June 2024</h2>
                 <img src={logo1} alt="nucamp logo" />
@@ -62,7 +67,11 @@ const Experience = () => {
           )}
 
           {activeCard === "junk" && (
-            <CardBody className="junk">
+            <CardBody
+              className={`junk ${
+                activeCard === "junk" ? "active fade-out" : ""
+              }`}
+            >
               <div className="logo-section">
                 <h2>February 2016 - August 2022</h2>
                 <img src={logo2} alt="got junk logo" />
@@ -93,7 +102,11 @@ const Experience = () => {
           )}
 
           {activeCard === "fredmeyer" && (
-            <CardBody className="fredmeyer">
+            <CardBody
+              className={`fredmeyer ${
+                activeCard === "fredmeyer" ? "active fade-out" : ""
+              }`}
+            >
               <div className="logo-section">
                 <h2>November 2008 - February 2016</h2>
                 <img src={logo3} alt="fredmeyer logo" />
@@ -146,3 +159,91 @@ const Experience = () => {
 };
 
 export default Experience;
+
+// import React, { useState } from "react";
+// import { Container, Card, CardBody } from "reactstrap";
+// import { Link } from "react-router-dom";
+// import logo1 from "../app/assets/img/logo.png";
+// import logo2 from "../app/assets/img/1800gotjunk-logo.png";
+// import logo3 from "../app/assets/img/fred-meyer-logo2.png";
+// import Mylogo from "../app/assets/img/Mylogo.PNG";
+
+// const Experience = () => {
+//   const [activeCard, setActiveCard] = useState(null);
+
+//   const handleClick = (cardName) => {
+//     setActiveCard(cardName === activeCard ? null : cardName);
+//   };
+
+//   return (
+//     <div>
+//       <Container>
+//         <div className="experience-info">
+//           <h1>Experience:</h1>
+//         </div>
+//         <ul className="job-links">
+//           <li onClick={() => handleClick("nucamp")}>Nucamp</li>
+//           <li onClick={() => handleClick("junk")}>1-800-GOT-JUNK?</li>
+//           <li onClick={() => handleClick("fredmeyer")}>FredMeyer</li>
+//         </ul>
+
+//         <div className="jobs">
+//           <Card
+//             className={`job-card ${
+//               activeCard === "nucamp" ? "active fade-in" : ""
+//             }`}
+//           >
+//             <div className="logo-section">
+//               <h2>December 2022 - June 2024</h2>
+//               <img src={logo1} alt="nucamp logo" />
+//             </div>
+//             <ul>
+//               <li>Full Stack Web & Mobile Development Student.</li>
+//               {/* Job details */}
+//             </ul>
+//           </Card>
+
+//           <Card
+//             className={`job-card ${
+//               activeCard === "junk" ? "active fade-in" : ""
+//             }`}
+//           >
+//             <div className="logo-section">
+//               <h2>February 2016 - August 2022</h2>
+//               <img src={logo2} alt="got junk logo" />
+//             </div>
+//             <ul>
+//               <li>Served as General Manager for the Seattle WA Region.</li>
+//               {/* Job details */}
+//             </ul>
+//           </Card>
+
+//           <Card
+//             className={`job-card ${
+//               activeCard === "fredmeyer" ? "active fade-in" : ""
+//             }`}
+//           >
+//             <div className="logo-section">
+//               <h2>November 2008 - February 2016</h2>
+//               <img src={logo3} alt="fredmeyer logo" />
+//             </div>
+//             <ul>
+//               <li>
+//                 Held the role of Food Division Manager, assigned with directing
+//                 the operations of several cross-functional professional teams
+//                 composed of over 100 employee's throughout 7+ departments.
+//               </li>
+//               {/* Job details */}
+//             </ul>
+//           </Card>
+
+//           <Card className={`job-card ${activeCard === null ? "active" : ""}`}>
+//             <img src={Mylogo} alt="Derick Newton Logo" />
+//           </Card>
+//         </div>
+//       </Container>
+//     </div>
+//   );
+// };
+
+// export default Experience;
