@@ -64,6 +64,26 @@ const Experience = () => {
                   and mobile development.{" "}
                 </li>
               </ul>
+              <div className="certificates">
+                <ul>
+                  <h1>Certificates</h1>
+                  <li>
+                    <a href="#">Web Development Fundamentals</a>
+                  </li>
+                  <li>
+                    <a href="../app/assets/Bootstrap cert.pdf">Bootstrap</a>
+                  </li>
+                  <li>
+                    <a href="#">Dynamic with React</a>
+                  </li>
+                  <li>
+                    <a href="#">React Native</a>
+                  </li>
+                  <li>
+                    <a href="#">Item 3</a>
+                  </li>
+                </ul>
+              </div>
             </CardBody>
           )}
 
