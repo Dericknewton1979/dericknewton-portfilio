@@ -264,3 +264,24 @@ nav {
     opacity: 1;
   }
 }
+
+.logo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 75px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-block a {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.logo-block img {
+  width: 75px;
+  height: 75px;
+}
