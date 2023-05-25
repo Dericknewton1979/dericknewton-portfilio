@@ -141,8 +141,12 @@ nav {
 }
 
 .resume {
-  height: 75px;
-  width: 150px;
+  font-weight: bold !important;
+  height: 50px;
+  width: 100px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
   border: solid 2px !important;
   border-color: black !important;
 }

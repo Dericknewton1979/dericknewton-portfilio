@@ -7,6 +7,10 @@ import logo3 from "../app/assets/img/fred-meyer-logo2.png";
 import logo4 from "../app/assets/img/scrimba.png";
 import logo5 from "../app/assets/img/general-assembly.png";
 import Mylogo from "../app/assets/img/Mylogo.PNG";
+import Bootstrap from "../app/assets/Bootstrap cert.pdf";
+import DynamicReact from "../app/assets/Dynamic with react cert.pdf";
+import WebDevFundamentals from "../app/assets/Wev Dev HTML,CSS,JS cert.pdf";
+import ReactNative from "../app/assets/React Native cert.pdf";
 
 const Experience = () => {
   const [activeCard, setActiveCard] = useState(null);
@@ -68,19 +72,27 @@ const Experience = () => {
                 <ul>
                   <h1>Certificates</h1>
                   <li>
-                    <a href="#">Web Development Fundamentals</a>
+                    <a href={WebDevFundamentals} target="_blank">
+                      Web Development Fundamentals
+                    </a>
                   </li>
                   <li>
-                    <a href="../app/assets/Bootstrap cert.pdf">Bootstrap</a>
+                    <a href={Bootstrap} target="_blank">
+                      Bootstrap
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Dynamic with React</a>
+                    <a href={DynamicReact} target="_blank">
+                      Dynamic with React
+                    </a>
                   </li>
                   <li>
-                    <a href="#">React Native</a>
+                    <a href={ReactNative} target="_blank">
+                      React Native
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Item 3</a>
+                    <a href="#">NodeJS/Express/MongoDB</a>
                   </li>
                 </ul>
               </div>
