@@ -16,10 +16,10 @@ function Home() {
           className="my-info slide-in-left-delayed"
           style={{ animationDelay: "1s" }}
         >
-          Im a full stack engineer with a passion for perfection. After many
-          years in Business Management I am pursuing a career in web
-          development. I am currently open to any opportunities and cant wait to
-          help you out!
+          Im a Full Stack Web Developer with a passion for perfection. After
+          many years in Business Management I am pursuing a career in Web
+          Development/Engineering. I am currently open to any opportunities and
+          cant wait to help you out!
         </h3>
       </div>
     </div>
