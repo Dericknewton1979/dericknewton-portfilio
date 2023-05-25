@@ -11,7 +11,6 @@ h1,
 h2,
 h3,
 .card-body > .card-title {
-  /* font-family: "Lobster", cursive; */
   font-family: "Share Tech Mono", monospace;
 }
 
@@ -53,12 +52,28 @@ nav {
   animation-duration: 3.5s;
   animation-fill-mode: backwards;
 }
+.profile-pic {
+  border-radius: 40%;
+  margin: auto;
+  display: block;
+  height: 400px;
+  align-items: center;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
 
 .my-info {
   display: flex;
   margin: 50px 400px 400px 400px;
   animation-duration: 4.5s;
   animation-fill-mode: forwards;
+}
+.about-me {
+  display: flex;
+  margin: 50px 200px 400px 200px;
+  animation-duration: 4.5s;
+  animation-fill-mode: forwards;
+  /* font-size: larger; */
 }
 .experience-info {
   display: flex;
