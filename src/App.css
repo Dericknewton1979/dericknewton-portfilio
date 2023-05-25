@@ -65,6 +65,11 @@ nav {
   margin: 50px 400px 70px 400px;
   border-bottom: solid;
 }
+.about-info {
+  display: flex;
+  margin: 50px 400px 70px 400px;
+  border-bottom: solid;
+}
 .job-links {
   font-size: large;
   font-weight: bold;

@@ -2,12 +2,13 @@ import React from "react";
 import { Container } from "reactstrap";
 
 const About = () => {
-    return(
-        <Container>
-            <h1>About</h1>
-        </Container>
-        
-    )
-}
+  return (
+    <Container>
+      <div className="about-info">
+        <h1>About:</h1>
+      </div>
+    </Container>
+  );
+};
 
 export default About;
