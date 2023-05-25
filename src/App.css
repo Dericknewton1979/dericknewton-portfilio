@@ -64,7 +64,7 @@ nav {
 
 .my-info {
   display: flex;
-  margin: 50px 400px 400px 400px;
+  margin: 50px 300px 400px 300px;
   animation-duration: 4.5s;
   animation-fill-mode: forwards;
 }
