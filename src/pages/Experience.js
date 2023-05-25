@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Card, CardBody } from "reactstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import logo1 from "../app/assets/img/logo.png";
 import logo2 from "../app/assets/img/1800gotjunk-logo.png";
 import logo3 from "../app/assets/img/fred-meyer-logo2.png";
