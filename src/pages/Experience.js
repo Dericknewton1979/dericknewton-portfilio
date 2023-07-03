@@ -10,6 +10,8 @@ import Bootstrap from "../app/assets/Bootstrap cert.pdf";
 import DynamicReact from "../app/assets/Dynamic with react cert.pdf";
 import WebDevFundamentals from "../app/assets/Wev Dev HTML,CSS,JS cert.pdf";
 import ReactNative from "../app/assets/React Native cert.pdf";
+import FullStack from "../app/assets/FullStack Web Mobile Development.pdf";
+import NodeJS from "../app/assets/Backend Nodejs Express MongoDB.pdf";
 
 const Experience = () => {
   const [activeCard, setActiveCard] = useState(null);
@@ -42,7 +44,7 @@ const Experience = () => {
               }`}
             >
               <div className="logo-section">
-                <h2>December 2022 - June 2024</h2>
+                <h2>December 2022 - June 2023</h2>
                 <img src={logo1} alt="nucamp logo" />
               </div>
               <ul>
@@ -76,13 +78,18 @@ const Experience = () => {
                     </a>
                   </li>
                   <li>
+                    <a href={FullStack} target="blank">
+                      Full Stack Web and Mobile Development
+                    </a>
+                  </li>
+                  <li>
                     <a href={Bootstrap} target="_blank">
                       Bootstrap
                     </a>
                   </li>
                   <li>
                     <a href={DynamicReact} target="_blank">
-                      Dynamic with React
+                      React
                     </a>
                   </li>
                   <li>
@@ -90,8 +97,11 @@ const Experience = () => {
                       React Native
                     </a>
                   </li>
+
                   <li>
-                    <a href="#">NodeJS/Express/MongoDB</a>
+                    <a href={NodeJS} target="blank">
+                      NodeJs/Express/MongoDB
+                    </a>
                   </li>
                 </ul>
               </div>
